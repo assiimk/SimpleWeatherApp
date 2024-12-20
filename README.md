@@ -1,56 +1,35 @@
-# SimpleWeatherApp
-A Spring Boot application that allows users to fetch weather forecasts for a specific city using the OpenWeatherMap API. The app provides a simple and user-friendly interface to display real-time weather information, such as temperature and weather descriptions, for any city around the world.
+<h1 align="left">Hey 👋 What's up?</h1>
 
-Features
+###
 
-Search Weather by City: Input a city name to fetch its 5-day weather forecast, including temperature and weather conditions.
+<p align="left">My name is ... and I'm a Java Developer passionate about building efficient and user-friendly applications. This repository showcases my SimpleWeatherApp project.</p>
 
-Real-time Weather Data: Leverages the OpenWeatherMap API for updated weather information.
+###
 
-User-friendly Interface: Built using Spring MVC and Thymeleaf to provide a simple and responsive user experience.
+<h2 align="left">About SimpleWeatherApp</h2>
 
-Technology Stack
+###
 
-Spring Boot: Backend framework for building robust and scalable Java applications.
+<p align="left">✨ A Spring Boot application that fetches real-time weather forecasts using the OpenWeatherMap API.<br>📚 Built with Spring Boot, Thymeleaf, and RestTemplate.<br>🎯 Goals: Provide a simple interface for users to access 5-day weather forecasts for any city.<br>🎲 Fun fact: This project taught me the intricacies of API integration and handling JSON responses!</p>
 
-Thymeleaf: Templating engine for rendering dynamic HTML content.
+###
 
-RestTemplate: Used for making HTTP requests to the OpenWeatherMap API.
+<h2 align="left">I code with</h2>
 
-OpenWeatherMap API: Provides detailed and reliable weather data.
+###
 
-Setup Instructions
-
-Prerequisites
-
-Java 17 or higher
-
-Maven
-
-OpenWeatherMap API Key (Sign up for free at OpenWeatherMap)
-
-Steps to Run the Application
-
-Clone the Repository:
-
-git clone https://github.com/yourusername/simple-weather-app.git
-cd simple-weather-app
-
-Add OpenWeatherMap API Key:
-
-Create a file named application.properties in the src/main/resources directory.
-
-Add the following content:
-
-openweathermap.api.key=YOUR_API_KEY
-
-Replace YOUR_API_KEY with your actual API key.
-
-Build and Run:
-
-./mvnw spring-boot:run
-
-Access the Application:
-Open your browser and visit http://localhost:8080.
-
-Project Structure
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" height="40" alt="maven logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
+</div>
