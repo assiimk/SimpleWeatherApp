@@ -1,8 +1,18 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<h1 align="left">Simple Weather App</h1>
 
 ###
 
-<p align="left">My name is ... and I'm a Java Developer passionate about building efficient and user-friendly applications. This repository showcases my SimpleWeatherApp project.</p>
+<p align="left">A Spring Boot application that allows users to fetch weather forecasts for a specific city using the OpenWeatherMap API. The app provides a simple and user-friendly interface to display real-time weather information, such as temperature and weather descriptions, for any city around the world.<br>
+Features
+Search Weather by City: Users can input a city name to get a 5-day weather forecast, including temperature and weather description.
+Real-time Data: Fetches weather data using the OpenWeatherMap API, which updates frequently.
+Responsive Design: Simple interface built with Spring MVC and Thymeleaf for seamless user experience.
+Technology Stack
+Spring Boot: Backend framework for building Java applications.
+RestTemplate: Used for making HTTP requests to fetch weather data from the OpenWeatherMap API.
+Thymeleaf: Templating engine for rendering dynamic HTML pages.
+OpenWeatherMap API: Provides weather data based on city names.
+</p>
 
 ###
 
