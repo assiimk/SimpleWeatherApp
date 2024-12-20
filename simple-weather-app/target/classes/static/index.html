@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<h1>Weather Forecast</h1>
+<label for="cityNameInput">Enter City Name:</label>
+<input type="text" id="cityNameInput" value="London" >
+<button onclick="fetchWeather()">Get Forecast</button>
+<div id="weatherTableContainer"></div>
+<script>
+    function fetchWeather() {
+        const cityName = document.getElementById('cityNameInput').value;
+        fetch(`/forecast/${cityName}`)
+            .then(response => response.json())
+            .then(data => {
+                let table = '<table><thead><tr><th>Date/Time</th><th>Temperature</th><th>Description</th></tr></thead><tbody>';
+                data.forEach(forecast => {
+                    table += `<tr><td>${forecast.dateTime}</td><td>${forecast.temperature}</td><td>${forecast.description}</td></tr>`;
+                });
+                table += '</tbody></table>';
+                document.getElementById('weatherTableContainer').innerHTML = table;
+            })
+            .catch(error => console.error('Error fetching weather:', error));
+    }
+</script>
+</body>
+</html>
